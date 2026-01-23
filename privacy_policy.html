@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מדיניות פרטיות - אפליקציית חישוב ברזלים | Privacy Policy - Rebar Calculator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.2em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+        
+        .content {
+            padding: 40px 30px;
+        }
+        
+        .language-toggle {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        .language-toggle button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            margin: 0 10px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: bold;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .language-toggle button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .language-toggle button.active {
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .section {
+            margin-bottom: 35px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.6em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .section h3 {
+            color: #764ba2;
+            margin: 20px 0 10px 0;
+            font-size: 1.3em;
+        }
+        
+        .section p, .section li {
+            margin-bottom: 12px;
+            font-size: 1.05em;
+        }
+        
+        .section ul {
+            margin: 15px 0 15px 25px;
+        }
+        
+        .section li {
+            margin-bottom: 10px;
+        }
+        
+        .highlight-box {
+            background: #e8f4f8;
+            border-left: 5px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .highlight-box strong {
+            color: #667eea;
+            font-size: 1.1em;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+            border-top: 3px solid #667eea;
+        }
+        
+        .footer p {
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        
+        .en-content {
+            direction: ltr;
+            text-align: left;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.6em;
+            }
+            
+            .content {
+                padding: 25px 20px;
+            }
+            
+            .language-toggle button {
+                padding: 10px 20px;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>מדיניות פרטיות</h1>
+            <p>אפליקציית חישוב ברזלים למהנדסים ואנשי מקצוע</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">Privacy Policy | Rebar Calculator App</p>
+        </div>
+        
+        <div class="content">
+            <div class="language-toggle">
+                <button id="heBtn" class="active" onclick="showLanguage('he')">עברית</button>
+                <button id="enBtn" onclick="showLanguage('en')">English</button>
+            </div>
+            
+            <!-- Hebrew Content -->
+            <div id="heContent">
+                <div class="highlight-box">
+                    <strong>🔒 הפרטיות שלך חשובה לנו!</strong><br>
+                    אפליקציה זו לא אוספת, לא שומרת ולא משתפת שום מידע אישי. כל הנתונים נשארים במכשיר שלך.
+                </div>
+                
+                <div class="section">
+                    <h2>1. מי אנחנו</h2>
+                    <p>אפליקציית חישוב ברזלים היא כלי מקצועי המיועד למהנדסי בניין, מנהלי פרויקטים ואנשי מקצוע בתחום הבנייה. האפליקציה מבצעת חישובים של ברזלים (פלדת זיון) ומאפשרת ייצוא התוצאות לקבצי PDF ואקסל.</p>
+                </div>
+                
+                <div class="section">
+                    <h2>2. איזה מידע נאסף?</h2>
+                    <h3>2.1 מידע אישי</h3>
+                    <p><strong>האפליקציה אינה אוספת שום מידע אישי מזהה.</strong> אנחנו לא מבקשים, לא שומרים ולא משתפים:</p>
+                    <ul>
+                        <li>שם, כתובת או פרטי יצירת קשר</li>
+                        <li>מספרי טלפון או כתובות אימייל</li>
+                        <li>מיקום גיאוגרפי</li>
+                        <li>תמונות או קבצים אישיים</li>
+                        <li>רשימת אנשי קשר</li>
+                    </ul>
+                    
+                    <h3>2.2 נתוני שימוש</h3>
+                    <p>האפליקציה שומרת נתונים אך ורק <strong>במכשיר שלך</strong>, כולל:</p>
+                    <ul>
+                        <li>חישובי ברזלים שביצעת</li>
+                        <li>הגדרות האפליקציה (שפה, יחידות מדידה)</li>
+                        <li>פרויקטים שיצרת</li>
+                    </ul>
+                    <p><strong>חשוב:</strong> כל הנתונים הללו נשמרים רק במכשיר שלך ואינם מועברים לשרתים חיצוניים או לצדדים שלישיים.</p>
+                </div>
+                
+                <div class="section">
+                    <h2>3. איך המידע נשמר?</h2>
+                    <p>כל הנתונים נשמרים באופן מקומי באחסון הפנימי של המכשיר שלך. האפליקציה:</p>
+                    <ul>
+                        <li>✅ עובדת לחלוטין במצב לא מקוון (Offline)</li>
+                        <li>✅ לא דורשת חיבור לאינטרנט</li>
+                        <li>✅ לא שולחת נתונים לשרתים</li>
+                        <li>✅ לא מתחברת לשירותי ענן</li>
+                    </ul>
+                </div>
+                
+                <div class="section">
+                    <h2>4. שיתוף מידע</h2>
+                    <p><strong>האפליקציה אינה משתפת מידע עם צדדים שלישיים.</strong></p>
+                    <p>הייצוא של קבצים (PDF, Excel) נעשה אך ורק:</p>
+                    <ul>
+                        <li>בהתאם לבחירתך המפורשת</li>
+                        <li>לתיקיות במכשיר שלך או לאפליקציות שאתה בוחר (דוא"ל, WhatsApp, וכו')</li>
+                        <li>ללא שמירה או העלאה אוטומטית לשרתים</li>
+                    </ul>
+                </div>
+                
+                <div class="section">
+                    <h2>5. הרשאות האפליקציה</h2>
+                    <p>האפליקציה עשויה לבקש את ההרשאות הבאות:</p>
+                    <ul>
+                        <li><strong>גישה לאחסון (Storage):</strong> לצורך שמירת וקריאת קבצים שיצרת (PDF, Excel)</li>
+                        <li><strong>גישה למצלמה (אופציונלי):</strong> אם תרצה לצרף תמונות לפרויקטים שלך</li>
+                    </ul>
+                    <p><strong>הערה:</strong> הרשאות אלו משמשות אך ורק לפונקציות שאתה מפעיל באופן ישיר ולא לאיסוף מידע ברקע.</p>
+                </div>
+                
+                <div class="section">
+                    <h2>6. אבטחת מידע</h2>
+                    <p>מכיוון שכל המידע נשמר רק במכשיר שלך:</p>
+                    <ul>
+                        <li>אתה שולט באופן מלא על הנתונים שלך</li>
+                        <li>אין חשיפה לסיכוני סייבר חיצוניים</li>
+                        <li>המידע מוגן על ידי אמצעי האבטחה של המכשיר שלך (PIN, טביעת אצבע וכו')</li>
+                    </ul>
+                </div>
+                
+                <div class="section">
+                    <h2>7. מחיקת מידע</h2>
+                    <p>אתה יכול למחוק את כל הנתונים שלך בכל עת על ידי:</p>
+                    <ul>
+                        <li>מחיקת פרויקטים ספציפיים בתוך האפליקציה</li>
+                        <li>ניקוי נתוני האפליקציה דרך הגדרות המכשיר</li>
+                        <li>הסרת האפליקציה לחלוטין מהמכשיר</li>
+                    </ul>
+                </div>
+                
+                <div class="section">
+                    <h2>8. שינויים במדיניות הפרטיות</h2>
+                    <p>אם נבצע שינויים במדיניות הפרטיות, נעדכן את התאריך בתחתית המסמך ונפרסם את המדיניות המעודכנת. אנו ממליצים לבדוק מדיניות זו מעת לעת.</p>
+                </div>
+                
+                <div class="section">
+                    <h2>9. צור קשר</h2>
+                    <p>אם יש לך שאלות או הערות לגבי מדיניות הפרטיות שלנו, אנא פנה אלינו:</p>
+                    <div class="contact-info">
+                        <strong>דוא"ל:</strong> [הכנס את כתובת המייל שלך]<br>
+                        <strong>שם המפתח:</strong> [הכנס את שמך/שם החברה]
+                    </div>
+                </div>
+                
+                <div class="highlight-box">
+                    <strong>לסיכום:</strong><br>
+                    אפליקציה זו מכבדת לחלוטין את הפרטיות שלך. היא לא אוספת מידע אישי, לא מתחברת לאינטרנט ללא ידיעתך, וכל הנתונים נשארים במכשיר שלך בלבד.
+                </div>
+            </div>
+            
+            <!-- English Content -->
+            <div id="enContent" class="hidden en-content">
+                <div class="highlight-box">
+                    <strong>🔒 Your Privacy Matters!</strong><br>
+                    This application does not collect, store, or share any personal information. All data remains on your device.
+                </div>
+                
+                <div class="section">
+                    <h2>1. Who We Are</h2>
+                    <p>Rebar Calculator is a professional tool designed for civil engineers, project managers, and construction professionals. The app performs rebar (reinforcement bar) calculations and allows exporting results to PDF and Excel files.</p>
+                </div>
+                
+                <div class="section">
+                    <h2>2. What Information is Collected?</h2>
+                    <h3>2.1 Personal Information</h3>
+                    <p><strong>The application does not collect any personally identifiable information.</strong> We do not request, store, or share:</p>
+                    <ul>
+                        <li>Name, address, or contact details</li>
+                        <li>Phone numbers or email addresses</li>
+                        <li>Geographic location</li>
+                        <li>Photos or personal files</li>
+                        <li>Contact lists</li>
+                    </ul>
+                    
+                    <h3>2.2 Usage Data</h3>
+                    <p>The application stores data only <strong>on your device</strong>, including:</p>
+                    <ul>
+                        <li>Rebar calculations you performed</li>
+                        <li>App settings (language, measurement units)</li>
+                        <li>Projects you created</li>
+                    </ul>
+                    <p><strong>Important:</strong> All this data is stored only on your device and is not transferred to external servers or third parties.</p>
+                </div>
+                
+                <div class="section">
+                    <h2>3. How is Information Stored?</h2>
+                    <p>All data is stored locally in your device's internal storage. The application:</p>
+                    <ul>
+                        <li>✅ Works completely offline</li>
+                        <li>✅ Does not require internet connection</li>
+                        <li>✅ Does not send data to servers</li>
+                        <li>✅ Does not connect to cloud services</li>
+                    </ul>
+                </div>
+                
+                <div class="section">
+                    <h2>4. Information Sharing</h2>
+                    <p><strong>The application does not share information with third parties.</strong></p>
+                    <p>File exports (PDF, Excel) are made only:</p>
+                    <ul>
+                        <li>Based on your explicit choice</li>
+                        <li>To folders on your device or apps you choose (email, WhatsApp, etc.)</li>
+                        <li>Without automatic saving or uploading to servers</li>
+                    </ul>
+                </div>
+                
+                <div class="section">
+                    <h2>5. App Permissions</h2>
+                    <p>The application may request the following permissions:</p>
+                    <ul>
+                        <li><strong>Storage access:</strong> To save and read files you created (PDF, Excel)</li>
+                        <li><strong>Camera access (optional):</strong> If you want to attach photos to your projects</li>
+                    </ul>
+                    <p><strong>Note:</strong> These permissions are used only for functions you directly activate and not for background data collection.</p>
+                </div>
+                
+                <div class="section">
+                    <h2>6. Data Security</h2>
+                    <p>Since all information is stored only on your device:</p>
+                    <ul>
+                        <li>You have full control over your data</li>
+                        <li>No exposure to external cyber risks</li>
+                        <li>Information is protected by your device's security measures (PIN, fingerprint, etc.)</li>
+                    </ul>
+                </div>
+                
+                <div class="section">
+                    <h2>7. Data Deletion</h2>
+                    <p>You can delete all your data at any time by:</p>
+                    <ul>
+                        <li>Deleting specific projects within the app</li>
+                        <li>Clearing app data through device settings</li>
+                        <li>Completely removing the app from your device</li>
+                    </ul>
+                </div>
+                
+                <div class="section">
+                    <h2>8. Changes to Privacy Policy</h2>
+                    <p>If we make changes to the privacy policy, we will update the date at the bottom of this document and publish the updated policy. We recommend checking this policy periodically.</p>
+                </div>
+                
+                <div class="section">
+                    <h2>9. Contact Us</h2>
+                    <p>If you have questions or comments about our privacy policy, please contact us:</p>
+                    <div class="contact-info">
+                        <strong>Email:</strong> [Insert your email address]<br>
+                        <strong>Developer Name:</strong> [Insert your name/company name]
+                    </div>
+                </div>
+                
+                <div class="highlight-box">
+                    <strong>In Summary:</strong><br>
+                    This application fully respects your privacy. It does not collect personal information, does not connect to the internet without your knowledge, and all data remains on your device only.
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>תאריך עדכון אחרון | Last Updated:</strong> 23 בינואר 2026 | January 23, 2026</p>
+            <p style="font-size: 0.9em; color: #999;">אפליקציית חישוב ברזלים | Rebar Calculator App</p>
+        </div>
+    </div>
+    
+    <script>
+        function showLanguage(lang) {
+            const heContent = document.getElementById('heContent');
+            const enContent = document.getElementById('enContent');
+            const heBtn = document.getElementById('heBtn');
+            const enBtn = document.getElementById('enBtn');
+            
+            if (lang === 'he') {
+                heContent.classList.remove('hidden');
+                enContent.classList.add('hidden');
+                heBtn.classList.add('active');
+                enBtn.classList.remove('active');
+                document.documentElement.setAttribute('lang', 'he');
+                document.documentElement.setAttribute('dir', 'rtl');
+            } else {
+                heContent.classList.add('hidden');
+                enContent.classList.remove('hidden');
+                heBtn.classList.remove('active');
+                enBtn.classList.add('active');
+                document.documentElement.setAttribute('lang', 'en');
+                document.documentElement.setAttribute('dir', 'ltr');
+            }
+        }
+    </script>
+</body>
+</html>
